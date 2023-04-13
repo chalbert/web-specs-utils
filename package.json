@@ -1,0 +1,16 @@
+{
+  "name": "@chalbert/web-specs-utils",
+  "version": "0.1.0",
+  "description": "Collection of utils to help with development of web specs",
+  "scripts": {
+    "start": "vite --port 3000 --host",
+    "compile": "tsc"
+  },
+  "author": "Nicolas Gilbert",
+  "license": "ISC",
+  "dependencies": {
+    "@webcomponents/scoped-custom-element-registry": "^0.0.9",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1"
+  }
+}
